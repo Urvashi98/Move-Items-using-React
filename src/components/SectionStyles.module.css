@@ -1,0 +1,13 @@
+.container {
+    border: 1px solid white;
+    width: 10em;
+    padding: 1em;
+}
+.container:hover {
+    cursor: pointer;
+}
+.container_IsCurrent{
+    background-color: aliceblue;
+    color: black;
+    font-weight: 400;
+}

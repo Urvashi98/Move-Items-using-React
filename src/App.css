@@ -1,6 +1,24 @@
 .App {
   text-align: center;
 }
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_span {
+  border: 2px solid white;
+  border-radius: .5em;
+  margin: 1em;
+  padding: 1em;
+}
+.btn_span:hover {
+  background-color: aliceblue;
+  color: #282c34;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 5px 8px 18px #61dafb;
+}
 
 .App-logo {
   height: 40vmin;
@@ -17,11 +35,12 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 0px 30px;
 }
 
 .App-link {
